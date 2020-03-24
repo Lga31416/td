@@ -7,11 +7,11 @@ command=$1
 echo $command
 case $command in
   'install')
-    echo 'Instalando cueh-bot'
+    echo 'Instalando bot'
     pip install -r requirements
     ;;
   'run')
-    echo 'Iniciando cueh-bot, cueh'
+    echo 'Iniciando botueh'
     python3 cuehmusicbot.py 
     ;;
     *)
